@@ -2,10 +2,7 @@
 
 # 🐺 lpp
 
-> 一门由 @FurryR 开发的高级编程语言。
-
-[![浏览数](https://hits.dwyl.com/FurryR/lpp-scratch.svg?style=flat-square)](http://github.com/FurryR/lpp-scratch)
-[![🛠️ 构建](https://github.com/FurryR/lpp-scratch/actions/workflows/ci.yaml/badge.svg)](https://github.com/FurryR/lpp-scratch/actions/workflows/ci.yaml)
+ 一门由 @FurryR 开发的高级编程语言。
 
 [🇺🇸](./README.md) | 🇨🇳
 
