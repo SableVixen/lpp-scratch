@@ -2,7 +2,7 @@
 
 # 🐺 lpp
 
-> A high-level programming language developed by @FurryR.
+A high-level programming language developed by @FurryR.
 
 🇺🇸 | [🇨🇳](./README-zh_CN.md)
 
