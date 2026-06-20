@@ -4,9 +4,6 @@
 
 > A high-level programming language developed by @FurryR.
 
-[![Visitors](https://hits.dwyl.com/FurryR/lpp-scratch.svg?style=flat-square)](http://github.com/FurryR/lpp-scratch)
-[![🛠️ Build](https://github.com/FurryR/lpp-scratch/actions/workflows/ci.yaml/badge.svg)](https://github.com/FurryR/lpp-scratch/actions/workflows/ci.yaml)
-
 🇺🇸 | [🇨🇳](./README-zh_CN.md)
 
 </div>
