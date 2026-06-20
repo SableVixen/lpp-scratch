@@ -1,5 +1,8 @@
-# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
-# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+# 🛠️ Build & Artifact Pipeline
+# - Installs dependencies with caching
+# - Builds both LPP variants
+# - Uploads artifacts
+# - Prevents parallel CI runs on the same branch
 
 name: 🛠️ Build
 
@@ -9,6 +12,10 @@ on:
   pull_request:
     branches: ['main']
 
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build:
     environment: ci
@@ -17,29 +24,36 @@ jobs:
     strategy:
       matrix:
         node-version: [20]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
       - name: 🤔 Checkout branch
         uses: actions/checkout@v4
+
       - name: 🤖 Setup Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
-          cache: 'npm'
+          cache: npm
+
       - name: 🔽 Install dependencies
         run: npm ci
+
       - name: 🛠️ Build lpp
         run: npm run build --if-present
-      - name: ✅ Upload artifacts (lpp)
+
+      - name: 📦 Upload artifact: lpp
         uses: actions/upload-artifact@v4
         with:
           name: lpp
           path: dist/withL10n.global.js
+          if-no-files-found: error
+
       - name: 🛠️ Build lpp (Turbowarp version)
         run: npm run build:turbowarp --if-present
-      - name: ✅ Upload artifacts (lpp-turbowarp)
+
+      - name: 📦 Upload artifact: lpp-turbowarp
         uses: actions/upload-artifact@v4
         with:
           name: lpp-turbowarp
           path: dist/index.global.formatted.js
+          if-no-files-found: error
