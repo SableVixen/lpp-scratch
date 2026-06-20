@@ -1,4 +1,4 @@
-name: 🛠️ Build
+name: Build
 
 on:
   push:
@@ -6,48 +6,37 @@ on:
   pull_request:
     branches: ['main']
 
-concurrency:
-  group: build-${{ github.ref }}
-  cancel-in-progress: true
-
 jobs:
   build:
-    environment: ci
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [20]
-
     steps:
-      - name: 🤔 Checkout branch
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: 🤖 Setup Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: 20
           cache: npm
 
-      - name: 🔽 Install dependencies
+      - name: Install dependencies
         run: npm ci
 
-      - name: 🛠️ Build lpp
+      - name: Build lpp
         run: npm run build --if-present
 
-      - name: 📦 Upload artifact: lpp
+      - name: Upload lpp artifact
         uses: actions/upload-artifact@v4
         with:
           name: lpp
           path: dist/withL10n.global.js
-          if-no-files-found: error
 
-      - name: 🛠️ Build lpp (Turbowarp version)
+      - name: Build lpp (Turbowarp)
         run: npm run build:turbowarp --if-present
 
-      - name: 📦 Upload artifact: lpp-turbowarp
+      - name: Upload lpp-turbowarp artifact
         uses: actions/upload-artifact@v4
         with:
           name: lpp-turbowarp
           path: dist/index.global.formatted.js
-          if-no-files-found: error
