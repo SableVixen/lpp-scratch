@@ -1,9 +1,3 @@
-# 🛠️ Build & Artifact Pipeline
-# - Installs dependencies with caching
-# - Builds both LPP variants
-# - Uploads artifacts
-# - Prevents parallel CI runs on the same branch
-
 name: 🛠️ Build
 
 on:
