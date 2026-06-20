@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2024 凌.
+ * Copyright (c) 2026 FurryR.
  * This program is licensed under the LGPL-3.0 license.
  */
 
