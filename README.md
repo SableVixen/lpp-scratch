@@ -75,7 +75,7 @@ A high-level programming language developed by @FurryR.
 
 </div>
 
-1. 💡 If you don't use `Turbowarp`, download [`Eureka`](https://eureka.codingclip.cc/). Please note that you need to install a userscript manager first. Click on the names to navigate to its install page.
+1. 💡 If you use `Scratch` instead of `Turbowarp`, download [`Eureka`](https://eureka.codingclip.cc/). Please note that you need to install a userscript manager first. Click on the names to navigate to its install page.
 
 <div align="center">
 
