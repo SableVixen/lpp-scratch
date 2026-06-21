@@ -65,9 +65,9 @@ A high-level programming language developed by @FurryR.
 </td></tr>
 </table>
 
-## 🤔 How to use
+## 🤔 How to install lpp
 
-1. 🔽 Download lpp daily build from [`Github Actions`](https://github.com/FurryR/lpp-scratch/actions/workflows/ci.yaml) (**requires login**). Please always download latest commit. You can download either `lpp-debug` or `lpp-release`. Decompress the artifact into a folder.
+1. 🔽 Download lpp from [`Github Releases`](https://github.com/SableVixen/lpp-scratch/releases). You can download either `lpp.js` if you want the original version of lpp or `lpp-turbowarp.js` if you want the Turbowarp version of lpp.
 
 <div align="center">
 
@@ -75,7 +75,7 @@ A high-level programming language developed by @FurryR.
 
 </div>
 
-1. 💡 Download [`Eureka`](https://eureka.codingclip.cc/). Please note that you need to install [`Tampermonkey`](https://www.tampermonkey.net/) or [`ViolentMonkey`](https://violentmonkey.github.io/get-it/) first. Click on the names to navigate to its install page.
+1. 💡 If you don't use Turbowarp, download [`Eureka`](https://eureka.codingclip.cc/). Please note that you need to install a userscript manager first. Click on the names to navigate to its install page.
 
 <div align="center">
 
@@ -91,7 +91,7 @@ A high-level programming language developed by @FurryR.
 
 </div>
 
-4. 🛠️ Scroll to `My Blocks` and you will see `Eureka`.
+4. 🛠️ If you have Eureka installed, scroll to `My Blocks` and you will see `Eureka`.
 
 <div align="center">
 
@@ -99,7 +99,7 @@ A high-level programming language developed by @FurryR.
 
 </div>
 
-5. 🐺 Use `Sideload from File`, select `index.global.js` in the decompressed folder (if it asks you about sandbox, click **Cancel**) and 🎉! Lpp is ready to use.
+5. 🐺 If you have Eureka installed, click on `Open Dashboard`, click on `File`, click on `Choose File` select `lpp.js`, or if you don't have Eureka installed, click on `Add Extension`, search for `Custom Extension`, click on `Custom Extension`, click on `Files`, click on `No files selected.`, select `lpp-turbowarp.js` and click on `Load` and 🎉 Lpp is now ready to use.
 
 <div align="center">
 
