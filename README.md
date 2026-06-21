@@ -75,7 +75,7 @@ A high-level programming language developed by @FurryR.
 
 </div>
 
-1. 💡 If you don't use Turbowarp, download [`Eureka`](https://eureka.codingclip.cc/). Please note that you need to install a userscript manager first. Click on the names to navigate to its install page.
+1. 💡 If you don't use `Turbowarp`, download [`Eureka`](https://eureka.codingclip.cc/). Please note that you need to install a userscript manager first. Click on the names to navigate to its install page.
 
 <div align="center">
 
@@ -91,7 +91,7 @@ A high-level programming language developed by @FurryR.
 
 </div>
 
-4. 🛠️ If you have Eureka installed, scroll to `My Blocks` and you will see `Eureka`.
+4. 🛠️ If you have `Eureka` installed, scroll to `My Blocks` and you will see `Eureka`.
 
 <div align="center">
 
@@ -99,7 +99,7 @@ A high-level programming language developed by @FurryR.
 
 </div>
 
-5. 🐺 If you have Eureka installed, click on `Open Dashboard`, click on `File`, click on `Choose File` select `lpp.js`, or if you don't have Eureka installed, click on `Add Extension`, search for `Custom Extension`, click on `Custom Extension`, click on `Files`, click on `No files selected.`, select `lpp-turbowarp.js` and click on `Load` and 🎉 Lpp is now ready to use.
+5. 🐺 If you have `Eureka` installed, click on `Open Dashboard`, click on `File`, click on `Choose File` select `lpp.js`, or if you don't have `Eureka` installed, click on `Add Extension`, search for `Custom Extension`, click on `Custom Extension`, click on `Files`, click on `No files selected.`, select `lpp-turbowarp.js` and click on `Load` and 🎉 Lpp is now ready to use.
 
 <div align="center">
 
