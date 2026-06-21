@@ -99,7 +99,7 @@ A high-level programming language developed by @FurryR.
 
 </div>
 
-5. 🐺 If you have `Eureka` installed, click on `Open Dashboard`, click on `File`, click on `Choose File` select `lpp.js`, and click on `Load Extension` or if you don't have `Eureka` installed, click on `Add Extension`, search for `Custom Extension`, click on `Custom Extension`, click on `Files`, click on `No files selected.`, select `lpp-turbowarp.js`, if `Run without sandbox` is disabled, click on the checkbox at the bottom left corner, and click on `Load`, 🎉 and Lpp is now ready to use.
+5. 🐺 If you have `Eureka` installed, click on `Open Dashboard`, click on `File`, click on `Choose File` select `lpp.js`, and click on `Load Extension` or if you use `Turbowarp` instead of `Scratch` and don't have `Eureka` installed, click on `Add Extension`, search for `Custom Extension`, click on `Custom Extension`, click on `Files`, click on `No files selected.`, select `lpp-turbowarp.js`, if `Run without sandbox` is disabled, click on the checkbox at the bottom left corner, and click on `Load`, 🎉 and Lpp is now ready to use.
 
 <div align="center">
 
